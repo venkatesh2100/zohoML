@@ -12,6 +12,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 data = pd.read_excel('../ml/Rotten_Tomatoes_Movies3.xls')
 data.to_csv()
 
+
 print(data.info())
 print(data.describe())
 
